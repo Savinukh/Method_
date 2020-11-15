@@ -6,6 +6,7 @@ namespace Method
     {
         static void Main(string[] args)
         {
+            MethodRedLine();
             MethodSquare();
         }
         static void MethodSquare()
