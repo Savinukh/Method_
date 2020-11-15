@@ -23,7 +23,7 @@ namespace Method
                 }
                 Console.WriteLine();
             }
-            Console.ReadKey();
+            Console.WriteLine();
         }
         static void MethodRedLine()
         {
@@ -35,13 +35,9 @@ namespace Method
                 Console.Write("─");
                 Console.ResetColor();
             }
-            Console.WriteLine();
-            Console.ReadKey();
-        
-       
-
-
-    }
+            Console.WriteLine("\n");
+                        
+        }
         static void MethodYellowLine()
         {
             Console.Write("Введите длину линии:\t");
@@ -58,8 +54,8 @@ namespace Method
                 }
                 Console.WriteLine();
             }
-            Console.ReadKey();
             MethodSquare();
+            Console.ReadKey();
         } 
 }
 }
