@@ -4,11 +4,22 @@ namespace Method
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            MethodRedLine();
-            MethodSquare();
-            MethodYellowLine();
+        static void Main()
+        { int n = 0;
+            do
+            {
+                MethodRedLine();
+                MethodSquare();
+                MethodYellowLine();
+                Console.WriteLine("Хотите попробывать еще раз? да - 1, нет - 0");
+                int answer = int.Parse(Console.ReadLine());
+                Console.Clear();
+                Main();
+                Console.ReadKey();
+                
+            }
+            while (n == 1);
+            
 
         }
         static void MethodSquare()
@@ -55,7 +66,6 @@ namespace Method
                 Console.WriteLine();
             }
             MethodSquare();
-            Console.ReadKey();
         } 
 }
 }
