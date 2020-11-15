@@ -15,7 +15,7 @@ namespace Method
                 int answer = int.Parse(Console.ReadLine());
                 Console.Clear();
                 Main();
-                Console.ReadKey();
+              
                 
             }
             while (n == 1);
