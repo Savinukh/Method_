@@ -22,5 +22,15 @@ namespace Method
             }
             Console.ReadKey();
         }
+        static void MethodRedLine()
+        {
+            Console.WriteLine("Введите длины красной линии:\t");
+            int length = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= length; i++)
+        
+       
+
+
     }
+}
 }
